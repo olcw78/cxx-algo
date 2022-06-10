@@ -1,0 +1,1 @@
+add_library(comon-ch1 ch1.cc)
