@@ -1,1 +1,0 @@
-add_library(singly-linked-list singlyLinkedList.cc)

@@ -10,7 +10,7 @@ set(LANG_SUBDIR
         src/lang/ioPrac
         )
 set(DS_SUBDIR
-        src/data-structure/linear/linked-list/singly-linked-list
+        src/data-structure/linear/linkedList/singleLinkedList
         )
 set(PROB_SUBDIR
         stc/prob/comon/ch1
@@ -21,7 +21,7 @@ set(LANG_LIB_NAMES
         stringPrac ioPrac
         )
 set(DS_LIB_NAMES
-        singly-linked-list
+        singleLinkedList
         )
 set(PROB_LIB_NAMES
         comon-ch1
