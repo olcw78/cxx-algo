@@ -29,7 +29,7 @@ namespace ds {
 
         void push_back(T item);
 
-        void pop_back(T item);
+        void pop_back();
 
         void remove(T item);
 

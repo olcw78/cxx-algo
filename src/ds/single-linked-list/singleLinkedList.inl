@@ -53,7 +53,17 @@ namespace ds {
     }
 
     template<typename T>
-    void SingleLinkedList<T>::pop_back(T item) {
+    void SingleLinkedList<T>::pop_back() {
+        auto *pos = head;
+        while (pos->next->next != nullptr) {
+            pos = pos->next;
+        }
+
+        delete current;
+        current = nullptr;
+
+        pos->next = nullptr;
+        current = pos;
     }
 
     template<typename T>

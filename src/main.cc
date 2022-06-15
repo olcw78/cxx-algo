@@ -14,6 +14,7 @@ int main() {
   sll.push_back(20);
   sll.push_back(30);
   sll.push_back(100);
+  sll.pop_back();
 
   sll.print_all();
 
