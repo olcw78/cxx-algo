@@ -1,0 +1,1 @@
+add_library(sll singleLinkedList.cc singleLinkedList.inl)

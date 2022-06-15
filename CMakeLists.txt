@@ -10,10 +10,7 @@ set(LANG_SUBDIR
         src/lang/ioPrac
         )
 set(DS_SUBDIR
-        src/data-structure/linear/linkedList/singleLinkedList
-        )
-set(PROB_SUBDIR
-        stc/prob/comon/ch1
+        src/ds/single-linked-list
         )
 
 # libraries
@@ -21,15 +18,12 @@ set(LANG_LIB_NAMES
         stringPrac ioPrac
         )
 set(DS_LIB_NAMES
-        singleLinkedList
-        )
-set(PROB_LIB_NAMES
-        comon-ch1
+        sll
         )
 
-# add_subdirectory(src/lang/stringPrac)
-# add_subdirectory(src/lang/ioPrac)
-add_subdirectory(src/prob/comon/ch1)
+add_subdirectory(src/ds/single-linked-list)
+add_subdirectory(src/lang/stringPrac)
+add_subdirectory(src/lang/ioPrac)
 
 include_directories(src)
 add_executable(${PROJECT_NAME}

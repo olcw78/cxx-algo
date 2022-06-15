@@ -20,5 +20,6 @@
     "vector": "cpp",
     "iterator": "cpp",
     "ios": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "Enabled"
 }
