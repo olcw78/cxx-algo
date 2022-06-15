@@ -1,11 +1,10 @@
 #ifndef C560CBF2_A5FE_4A36_8A79_22AAB5899305
 #define C560CBF2_A5FE_4A36_8A79_22AAB5899305
 
-#include <bits/stdc++.h>
-
 using namespace std;
 
 namespace ds {
+
     template<typename T>
     class SingleLinkedList {
     public:
@@ -13,12 +12,12 @@ namespace ds {
 
         ~SingleLinkedList();
 
-    public:
+    private:
         struct Node {
             Node *next;
             T item;
 
-            Node(T item);
+            explicit Node(T item);
         };
 
     private:

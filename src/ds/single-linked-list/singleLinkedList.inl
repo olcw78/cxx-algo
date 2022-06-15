@@ -1,10 +1,12 @@
 #include "singleLinkedList.h"
 
+#include <iostream>
+
 namespace ds {
 
     template<typename T>
-    SingleLinkedList<T>::Node::Node(T item)
-            : next(nullptr), item(item) {
+    SingleLinkedList<T>::
+    Node::Node(T item) : next(nullptr), item(item) {
         //
     }
 
