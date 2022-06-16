@@ -1,9 +1,8 @@
 #ifndef F088F82B_14D3_4B38_A177_AFC49478D5EC
 #define F088F82B_14D3_4B38_A177_AFC49478D5EC
 
-namespace ioPrac
-{
-    void run();
+namespace lang {
+void run();
 }
 
 #endif /* F088F82B_14D3_4B38_A177_AFC49478D5EC */
