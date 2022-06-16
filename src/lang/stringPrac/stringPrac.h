@@ -2,7 +2,7 @@
 #define AEFE6224_4480_4C29_AB2C_35803F68A878
 
 namespace lang {
-void run();
+void run_stringPrac();
 }
 
 #endif /* AEFE6224_4480_4C29_AB2C_35803F68A878 */

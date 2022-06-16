@@ -1,6 +1,7 @@
 #include "singleLinkedList.h"
 
 #include <iostream>
+using namespace std;
 
 namespace ds {
 

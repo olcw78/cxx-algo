@@ -4,7 +4,7 @@
 using namespace std;
 
 namespace lang {
-void run() {
+void run_ioPrac() {
   // console input
   string str;
   cout << "input!" << '\n';

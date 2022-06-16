@@ -1,1 +1,1 @@
-add_library(stl-algorithms )
+add_library(stl-algorithms stlAlgorithms.cc)

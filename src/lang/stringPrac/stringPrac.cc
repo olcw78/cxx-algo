@@ -4,7 +4,7 @@
 using namespace std;
 
 namespace lang {
-void run() {
+void run_stringPrac() {
 #pragma region indexing
   // string 인덱스 접근
   string str1 = "testString";
