@@ -1,13 +1,15 @@
 #include <iostream>
 
-#include "lang/run.h"
+#include "sort/run.h"
+// #include "lang/run.h"
 // #include "ds/run.h"
 
 using namespace std;
 
 int main() {
   // ds::run();
-  lang::run();
+  // lang::run();
+  sort::run();
 
   return 0;
 }

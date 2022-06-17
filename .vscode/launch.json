@@ -8,7 +8,7 @@
       "name": "clang++ run output",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/cxx_algo.exe",
+      "program": "${workspaceFolder}/build/cxx_algo",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
