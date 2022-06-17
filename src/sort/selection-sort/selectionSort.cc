@@ -21,26 +21,21 @@ void run_selectionSort() {
     cout << arr[i] << ' ';
   cout << '\n';
 
-  // loop
   // 1. cur 선택
   // 2. 최소값 얻어 cur 와 교환
   for (int i = 0; i < ARR_LEN; ++i) {
-    int cur = i;
-
     // 반복하며 최소값 탐색
-    int least = std::numeric_limits<int>::max();
-    int leastIdx = 0;
-
-    for (int j = i; j < ARR_LEN; ++j) {
-      if (least > arr[j]) {
-        least = arr[j];
-        leastIdx = j;
-      }
+    int least = i;
+    for (int j = i + 1; j < ARR_LEN; ++j) {
+      if (arr[least] > arr[j])
+        least = j;
     }
 
-    int temp = arr[cur];
-    arr[cur] = arr[leastIdx];
-    arr[leastIdx] = temp;
+    if (i != least) {
+      const int temp = arr[i];
+      arr[i] = arr[least];
+      arr[least] = temp;
+    }
   }
 
   cout << "after sort --------" << '\n';
