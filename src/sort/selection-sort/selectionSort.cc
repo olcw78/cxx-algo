@@ -23,7 +23,7 @@ void run_selectionSort() {
 
   // 1. cur 선택
   // 2. 최소값 얻어 cur 와 교환
-  for (int i = 0; i < ARR_LEN; ++i) {
+  for (int i = 0; i < ARR_LEN - 1; ++i) {
     // 반복하며 최소값 탐색
     int least = i;
     for (int j = i + 1; j < ARR_LEN; ++j) {
